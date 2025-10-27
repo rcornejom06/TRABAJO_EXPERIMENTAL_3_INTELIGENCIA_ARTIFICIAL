@@ -1,0 +1,48 @@
+# IA Guía 3 - CORNEJO ROGER ANDRES
+
+Este repositorio contiene implementaciones prácticas de conceptos fundamentales en Inteligencia Artificial relacionados con incertidumbre y lógica difusa.
+
+## Archivos del Proyecto
+
+### 1. `funciones-pertenencia.py`
+Implementa **funciones de pertenencia** para conjuntos difusos (fuzzy sets).
+
+**Conceptos clave:**
+- Función de pertenencia triangular
+- Grados de pertenencia (valores entre 0 y 1)
+- Modelado de conceptos imprecisos como "temperatura cálida"
+
+**Ejemplo:** Determina qué tan "cálida" es una temperatura de 25°C usando una función triangular.
+
+### 2. `defuzificación.py`
+Implementa el método de **defuzificación por centroide**.
+
+**Conceptos clave:**
+- Conversión de valores difusos a valores precisos
+- Método del centroide: promedio ponderado de valores por sus grados de pertenencia
+- Fórmula: `(Σ µ(x) * x) / (Σ µ(x))`
+
+**Ejemplo:** Convierte múltiples valores con diferentes grados de pertenencia en un único valor representativo.
+
+### 3. `intertidumbre_probabilidad.py`
+Explora conceptos de **incertidumbre y probabilidad**.
+
+**Conceptos clave:**
+- Simulación de experimentos aleatorios
+- Cálculo de probabilidades empíricas
+- Manejo de incertidumbre mediante métodos probabilísticos
+
+**Ejemplo:** Simula tiradas de dado y calcula la probabilidad de obtener números mayores a 4.
+
+## Conceptos Generales
+
+### Lógica Difusa (Fuzzy Logic)
+- Permite manejar información imprecisa o vaga
+- Los elementos pueden pertenecer parcialmente a un conjunto
+- Útil para modelar conocimiento humano y toma de decisiones
+
+### Incertidumbre
+- Representa la falta de certeza en la información
+- Se maneja mediante probabilidades y métodos estadísticos
+- Fundamental en sistemas de IA que operan con información incompleta
+
